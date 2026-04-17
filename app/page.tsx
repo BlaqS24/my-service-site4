@@ -7,10 +7,10 @@ export default function Home() {
       <div className="bg-gradient-to-r from-green-600 to-emerald-700 text-white py-24">
         <div className="max-w-4xl mx-auto text-center px-6">
           <h1 className="text-5xl font-bold mb-6">
-            Fast Digital Services in Ghana
+                BLAQ Digital Services 
           </h1>
           <p className="text-xl mb-10">
-            Buy mobile data instantly • Order food easily • Reliable delivery
+            Buy USA Esim • Order food easily • Reliable delivery
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
@@ -20,7 +20,7 @@ export default function Home() {
               Browse Services
             </a>
             <a 
-              href="https://wa.me/233XXXXXXXXX" 
+              href="https://wa.me/14428882625" 
               target="_blank"
               className="border-2 border-white font-semibold px-10 py-4 rounded-2xl text-lg hover:bg-white/10 transition"
             >
@@ -37,19 +37,19 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white rounded-3xl p-8 shadow hover:shadow-xl transition">
             <div className="text-6xl mb-6">📱</div>
-            <h3 className="text-2xl font-semibold mb-3">Mobile Data Bundles</h3>
-            <p className="text-gray-600 mb-6">Instant MTN, Vodafone, AirtelTigo top-up</p>
-            <div className="text-3xl font-bold text-green-600">From GH₵5</div>
+            <h3 className="text-2xl font-semibold mb-3">Mobile Esim</h3>
+            <p className="text-gray-600 mb-6">Buy you Esim here </p>
+            <div className="text-3xl font-bold text-green-600">From GH₵150</div>
             <button className="mt-8 w-full bg-green-600 text-white py-4 rounded-2xl font-semibold hover:bg-green-700">
-              Buy Data Now
+              Buy  Now
             </button>
           </div>
 
           <div className="bg-white rounded-3xl p-8 shadow hover:shadow-xl transition">
             <div className="text-6xl mb-6">🍔</div>
             <h3 className="text-2xl font-semibold mb-3">Food Ordering</h3>
-            <p className="text-gray-600 mb-6">Order from restaurants & get delivered</p>
-            <div className="text-3xl font-bold text-green-600">From GH₵10</div>
+            <p className="text-gray-600 mb-6">Order you pizza & get it delivered</p>
+            <div className="text-3xl font-bold text-green-600">From GH₵100</div>
             <button className="mt-8 w-full bg-green-600 text-white py-4 rounded-2xl font-semibold hover:bg-green-700">
               Order Food
             </button>
@@ -57,9 +57,9 @@ export default function Home() {
 
           <div className="bg-white rounded-3xl p-8 shadow hover:shadow-xl transition">
             <div className="text-6xl mb-6">💰</div>
-            <h3 className="text-2xl font-semibold mb-3">Airtime & More</h3>
-            <p className="text-gray-600 mb-6">Airtime top-up and other services</p>
-            <div className="text-3xl font-bold text-green-600">Instant</div>
+            <h3 className="text-2xl font-semibold mb-3">Flower & More</h3>
+            <p className="text-gray-600 mb-6">Flower , Teddy Bear , love cards & More</p>
+            <div className="text-3xl font-bold text-green-600">From GH₵250</div>
             <button className="mt-8 w-full bg-green-600 text-white py-4 rounded-2xl font-semibold hover:bg-green-700">
               Get Started
             </button>
@@ -69,7 +69,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12 text-center">
-        <p>blaajobs.net • Fast Digital Services in Accra</p>
+        <p>blaqjobs.net • BLAQ Digital Services </p>
         <p className="text-gray-400 mt-2">© 2026 • Contact us on WhatsApp for support</p>
       </footer>
     </div>
