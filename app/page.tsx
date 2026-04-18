@@ -46,24 +46,24 @@ export default function Home() {
   const [services, setServices] = useState([
     {
       icon: "📱",
-      title: "USA Esim",
-      desc: "Buy USA Esim at a very cool price",
-      price: "From GH₵120",
-      button: "Buy Now"
+      title: "Mobile Data Bundles",
+      desc: "MTN • Vodafone • AirtelTigo",
+      price: "From GH₵30",
+      button: "Buy Data Now"
     },
     {
       icon: "🍔",
-      title: "Food Ordering such as pizza and more",
-      desc: "Place order for you friends and family",
-      price: "From GH₵100",
+      title: "Food Ordering Help",
+      desc: "Fast delivery from restaurants",
+      price: "From GH₵15",
       button: "Order Food"
     },
     {
       icon: "💰",
-      title: "Flower & More",
-      desc: "You can place order for you love ones in USA at a cool price",
-      price: "From GH₵250",
-      button: "Buy Now"
+      title: "Airtime & More",
+      desc: "Instant top-up",
+      price: "Any amount",
+      button: "Buy Airtime"
     }
   ]);
 
@@ -85,7 +85,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="bg-zinc-950 border-b border-yellow-400 py-4">
         <div className="max-w-6xl mx-auto px-6 flex justify-between items-center">
-          <h1 className="text-3xl font-bold text-yellow-400">blaqjobs.net</h1>
+          <h1 className="text-3xl font-bold text-yellow-400">blaajobs.net</h1>
           <div className="flex gap-6 items-center">
             {user ? (
               <div className="flex items-center gap-4">
@@ -104,12 +104,12 @@ export default function Home() {
       {/* Hero */}
       <div className="bg-black py-28 border-b-4 border-yellow-400">
         <div className="max-w-5xl mx-auto text-center px-6">
-          <h1 className="text-6xl md:text-7xl font-bold mb-6 text-yellow-400">BLAQ Digital Services</h1>
-          <p className="text-3xl mb-4"></p>
+          <h1 className="text-6xl md:text-7xl font-bold mb-6 text-yellow-400">Fast Digital Services</h1>
+          <p className="text-3xl mb-4">in Ghana</p>
           <p className="text-xl md:text-2xl mb-12 max-w-2xl mx-auto text-gray-300">Instant data • Food help • Airtime • 10 GH₵ referral bonus</p>
-          <div className="flex flex-col sm:flex-row gap-5 justify-center"></div>
-          <a href="#services" className="bg-yellow-400 text-black font-semibold px-12 py-5 rounded-3xl text-xl hover:bg-yellow-300 transition">Browse Services</a>
-            <a href="https://wa.me/14428882625" target="_blank" className="border-2 border-yellow-400 font-semibold px-12 py-5 rounded-3xl text-xl hover:bg-yellow-400 hover:text-black transition">Chat on WhatsApp</a>
+          <div className="flex flex-col sm:flex-row gap-5 justify-center">
+            <a href="#services" className="bg-yellow-400 text-black font-semibold px-12 py-5 rounded-3xl text-xl hover:bg-yellow-300 transition">Browse Services</a>
+            <a href="https://wa.me/233YOURNUMBER" target="_blank" className="border-2 border-yellow-400 font-semibold px-12 py-5 rounded-3xl text-xl hover:bg-yellow-400 hover:text-black transition">Chat on WhatsApp</a>
           </div>
         </div>
       </div>
@@ -175,7 +175,7 @@ export default function Home() {
         <h2 className="text-4xl font-bold text-yellow-400 mb-8 text-center">Add a New Service (Owner Only)</h2>
         <div className="grid md:grid-cols-3 gap-6 max-w-2xl mx-auto">
           <input 
-            type="text"
+            type="text" 
             placeholder="Service Name" 
             value={newService.name}
             onChange={(e) => setNewService({...newService, name: e.target.value})}
@@ -204,8 +204,8 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-black border-t border-yellow-400 py-16 text-center">
-        <p className="text-3xl font-bold text-yellow-400 mb-2">blaqjobs.net</p>
-        <p className="text-gray-400">BLAQ Digital Services </p>
+        <p className="text-3xl font-bold text-yellow-400 mb-2">blaajobs.net</p>
+        <p className="text-gray-400">Fast Digital Services • Accra, Ghana</p>
         <p className="mt-8 text-gray-500">© 2026 • WhatsApp for instant support</p>
       </footer>
     </div>
